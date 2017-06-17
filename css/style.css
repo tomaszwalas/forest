@@ -132,6 +132,11 @@ header a{
 .banner{
     margin-top: 80px;
 }
+@media (max-width: 768px) {
+.centered{
+    text-align: center;
+}
+    }
 .team-section{
     min-height: 100%;
     color: #000;
@@ -140,6 +145,12 @@ header a{
 }
 .team-section h2{
     margin-bottom: 150px;
+}
+.slider2{
+    height: 400px;
+}
+.slider2 img{
+    margin: 0 auto;
 }
 .contact-section{
     min-height: 100%;
